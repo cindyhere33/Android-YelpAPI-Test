@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingBottom="@dimen/padding6"
+    android:weightSum="10">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Built by\nSindhura Katta"
+        android:gravity="center"
+        android:layout_weight="9"
+        android:textSize="@dimen/textSize_large"
+        android:textStyle="bold"
+        android:lineSpacingExtra="6dp" />
+
+</LinearLayout>

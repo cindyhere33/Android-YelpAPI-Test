@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding6"
+    android:paddingRight="@dimen/padding6"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding6"
+            android:text="Noodle Wave Thai Restaurant"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize_large"
+            android:gravity="center"
+            android:drawableRight="@drawable/ic_external_link"
+            android:textStyle="bold" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/niv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/padding4" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/padding6"
+        android:layout_weight="1"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding6"
+            android:lineSpacingExtra="4dp"
+            android:text="Address: 2850 Coit Rd, Dallas, TX 75252"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize_medium"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding3"
+            android:text="Located 0.5 mi away"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize_medium"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding3"
+            android:text="Price: $$"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize_medium"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding5"
+            android:text="(972)678-1029"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize_medium"
+            android:textStyle="normal" />
+
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding3" />
+
+
+        <TextView
+            android:id="@+id/tv_isOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding3"
+            android:text="Open"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/textSize_large"
+            android:textStyle="normal|italic" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

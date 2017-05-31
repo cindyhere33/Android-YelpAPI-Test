@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Contest</string>
+
+
+    <!--Keys-->
+    <string name="client_secret">SH9PtuPsrtMwbbQT9XkZcgadLngAtmZ8zPSiR8LBdhGNVOSCVfpQBt2Sdy1BmVVF</string>
+    <string name="client_id">JCbPgWsAU5eHwZKAYK4xUg</string>
+    <string name="google_maps_key">AIzaSyB3DEDL5RLE7GE1PlUJVzcn4FtrOlbGb3c</string>
+
+    <string name="access_token">AccessToken</string>
+    <string name="token_type">TokenType</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="base_url">https://api.yelp.com/</string>
+    <string name="WEBSITE_URL">websiteURL</string>
+
+
+</resources>
